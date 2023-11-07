@@ -1,0 +1,146 @@
+body {
+    font-family: sans-serif;
+    background-image: url(images/floresta1.jpg);
+    height: 2000px;
+
+}
+
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+
+
+.banner {
+    height: 450px;
+    width: 940px;
+}
+
+.animacao {
+    height: 450px;
+    width: 400px;
+    margin-left: 28%;
+
+}
+
+.audio {
+    margin-left: 640px;
+    margin-top: 0,5%;
+}
+
+
+.copyright {
+    color: #CCCCCC;
+    font-size: 13px;
+    margin: 20px;
+    text-align: center;
+    display: block;
+}
+
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    padding-top: 10px;
+    color: #ccc;
+}
+
+.principal {
+    background: rgb(26, 25, 25);
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+
+.principal p {
+    margin: 10%;
+    margin-bottom: 10%;
+    text-align: justify;
+    color: #ccc;
+
+}
+
+.principal strong {
+    font-weight: bold;
+    color: #ccc;
+}
+
+.principal em {
+    font-style: italic;
+    color: #ccc;
+}
+
+.tabuleiro {
+    width: 120px;
+    float: left;
+    margin: 20px;
+    box-shadow: 10px 10px 10px 0px white;
+}
+
+
+h1, h2 {
+    text-align: center;
+    color: #ccc;
+
+}
+
+
+.horizontal-menu ul {
+justify-content: center;
+    background-color: rgb(236, 126, 83);
+    width: 100%;
+    margin-left: 0%;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 0%;
+}
+
+.horizontal-menu li {
+    display: block;
+    padding: 10px;
+    align-items: center;
+    margin: 0%;
+
+
+}
+
+.horizontal-menu a {
+    color: white;
+    align-items: center;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.horizontal-menu a:hover {
+    background-color: #ccc;
+}
+
+.horizontal-menu a.active {
+    background-color: red;
+    color: white;
+}
+
+
+.contato {
+    text-align: center;
+
+}
+
+.voltar {
+    color: black;
+    margin-left: 50px;
+    display: fixed;
+    padding: 5px;
+}
